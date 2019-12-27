@@ -1,3 +1,3 @@
 # C74Hamming error correction representation
 
-![Demo](hamming74.gif)
+![](hammin74.gif)
