@@ -54,7 +54,7 @@ def correctionanddecode(x):
         e = int(Ht[int(z, 2) - 1], 2)
     else:
         e = 0
-    #Check parity and fix errored bit
+    #Check parity and if have error bit, fix errored bit
     if e > 0:
         x = list(x)
         x[e - 1] = str(1 - int(x[e - 1]))
